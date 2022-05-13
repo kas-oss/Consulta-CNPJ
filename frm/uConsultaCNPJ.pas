@@ -78,8 +78,6 @@ var
   empresa      : TEmpresa;
   jsonArray    : TJSONArray;
 
-//  empresa
-
 begin
   empresa := TEmpresa.Create;
 
@@ -118,23 +116,9 @@ begin
 //  ShowMessage(jsonEmpresa.GetValue<string>('complemento'));
   Memo.Lines.Text := empresa.ToString;
 
-
-
-
-//  Memo.Lines.Text :=
-
-
-
-
   CardPanel.ActiveCardIndex := 1;
   pTopo.Visible := true;
-
-
-
-
-
-
-
+  
 end;
 
 procedure TfrmConsultaCNPJ.btnNovaConsultaClick(Sender: TObject);
